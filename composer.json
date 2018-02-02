@@ -1,0 +1,21 @@
+{
+    "name": "outeredge/magento-category-product-position-module",
+    "type": "magento-module",
+    "description": "Fixes Magento but where default position for product in category is incorrect when added to category via the product.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/local/Edge/CategoryProductPosition", "app/code/local/Edge/CategoryProductPosition"],
+            ["app/etc/modules/Edge_CategoryProductPosition.xml", "app/etc/modules/Edge_CategoryProductPosition.xml"]
+        ]
+    }
+}
